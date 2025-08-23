@@ -19,6 +19,8 @@ from langchain_core.output_parsers import StrOutputParser
 # LANGCHAIN_PROJECT=pdf_rag_demo
 
 load_dotenv()
+os.environ['LANGCHAIN_PROJECT']='rag chatbot'
+
 
 PDF_PATH = "islr.pdf"  # change to your file
 

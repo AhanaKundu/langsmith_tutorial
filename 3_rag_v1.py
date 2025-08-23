@@ -11,6 +11,8 @@ from langchain_core.runnables import RunnableParallel, RunnablePassthrough, Runn
 from langchain_core.output_parsers import StrOutputParser
 
 load_dotenv()  # expects OPENAI_API_KEY in .env
+os.environ['LANGCHAIN_PROJECT']='rag chatbot'
+
 
 PDF_PATH = "islr.pdf"  # <-- change to your PDF filename
 
